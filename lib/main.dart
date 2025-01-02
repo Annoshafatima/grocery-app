@@ -3,6 +3,8 @@ import 'package:geoceryapp/src/controller/components/screen1.dart';
 import 'package:geoceryapp/src/controller/components/screen2.dart';
 import 'package:geoceryapp/src/controller/components/screen3.dart';
 import 'package:geoceryapp/src/controller/components/screen4.dart';
+import 'package:geoceryapp/src/view/startingview/onboarding-views/onboardingview.dart';
+import 'package:geoceryapp/src/view/startingview/splash-views/splashview.dart';
 
 
 void main() {
@@ -37,9 +39,11 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home://Screenone()
-ScreenTwo()
+//ScreenTwo()
 //ScreenThree()
 //ScreenFour()
+Splashview()
+//Onboardingview()
        //const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
