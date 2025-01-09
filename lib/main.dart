@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:geoceryapp/src/controller/components/google.dart';
 import 'package:geoceryapp/src/controller/components/screen1.dart';
 import 'package:geoceryapp/src/controller/components/screen2.dart';
 import 'package:geoceryapp/src/controller/components/screen3.dart';
@@ -44,6 +45,7 @@ class MyApp extends StatelessWidget {
 //ScreenFour()
 Splashview()
 //Onboardingview()
+//Google()
        //const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
